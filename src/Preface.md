@@ -1,0 +1,7 @@
+# Preface
+
+This indispensable guidebook contains everything that a coder in the cyberland could need to know.
+
+Every page contains a gem of brilliant insight into how to code in neon-lit caves, thrive among its denizens, and revive your coder community.
+
+This exceptional guide can not only save your life, but may even inspire you to reach for the greatness of the quantum era.

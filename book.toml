@@ -1,0 +1,13 @@
+[book]
+authors = ["Joseph Harrison-Lim"]
+multilingual = false
+src = "src"
+title = "The Cyberland Survival Guide"
+description = "This indispensable guidebook contains everything that a survivor in the cyberland could need to know."
+
+[build]
+build-dir = "docs"
+create-missing = false
+
+[output.html.search]
+limit-results = 20
