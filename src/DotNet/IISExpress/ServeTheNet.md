@@ -8,7 +8,7 @@ Steps:
 - Open a firewall rule on the router for 8060 on my static internal IP
 - Open an outbound rule on your firewall for 8060
 - Set IIS Express to serve on 8060
-- Run from Powershell: `netsh http add urlacl url=http://*:8060/ user=everyone`
+- Run from Powershell: `netsh http add urlacl url=http://*:8060/ user=everyone`[^1]
 - Add in your `.vs/config/applicationhost.config` (in the bindings for your site):
 `<binding protocol="http" bindingInformation="*:8060:*" />`
 
@@ -20,3 +20,4 @@ Make sure you:
 - Run the following from powershell: `netsh http delete urlacl url=http://*:8060`
 - Remove or comment-out the binding in `.vs/config/applicationhost.config`
 
+[^1]: Step taken from [_Serving external traffic with WebMatrix Beta_](https://blogs.iis.net/vaidyg/serving-external-traffic-with-webmatrix-beta)
